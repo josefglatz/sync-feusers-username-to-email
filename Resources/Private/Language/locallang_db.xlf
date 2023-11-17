@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns:t3="http://typo3.org/schemas/xliff" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" original="" datatype="plaintext" date="2023-11-22T06:30:39+01:00">
+		<body>
+			<trans-unit id="fe_users.field.email.description" resname="fe_users.field.email.description">
+				<source>This fields gets automatically synced with the value from the &#34;username&#34; field when saving this record.</source>
+			</trans-unit>
+			<trans-unit id="fe_users.field.username.placeholder" resname="fe_users.field.username.placeholder">
+				<source>user@example.com</source>
+			</trans-unit>
+			<trans-unit id="fieldInformation.username.info.uniqueInPid" resname="fieldInformation.username.info.uniqueInPid">
+				<source>The username must be unique on this page.</source>
+			</trans-unit>
+			<trans-unit id="fieldInformation.username.info.validEmail" resname="fieldInformation.username.info.validEmail">
+				<source>The username must be a valid email address.</source>
+			</trans-unit>
+			<trans-unit id="fieldInformation.username.title" resname="fieldInformation.username.title">
+				<source>Username = email address of user</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

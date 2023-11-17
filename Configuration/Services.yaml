@@ -1,0 +1,17 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+  JosefGlatz\SyncFeUsersUsernameToEmail\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Domain/Model/*'
+
+  # Register console command for updating all fe_users records once
+  JosefGlatz\SyncFeUsersUsernameToEmail\Command\SyncFeUsersUsernameToEmailCommand:
+    tags:
+      -
+        name: console.command
+        command: 'fe_users:sync-username-to-email'
+        description: 'Sync all fe_users username to email field once'
+        schedulable: true

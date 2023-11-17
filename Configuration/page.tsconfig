@@ -1,0 +1,10 @@
+// This represents the default page TSconfig configuration
+// Check TSconfig reference in the documentation for details
+tx_sync_feusers_username_to_email {
+    enableEmailInformation = 1
+    showEmailFieldForNewRecord = 0
+    setEmailFieldToReadOnly = 1
+    executeSyncViaDataHandlerHookOnCopyPaste = 1
+    executeSyncViaDataHandlerHook = 1
+    showPlaceholderForUsernameField = 1
+}
