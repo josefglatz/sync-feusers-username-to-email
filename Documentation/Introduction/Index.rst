@@ -40,8 +40,10 @@ What does it do?
     used in the TYPO3 core.
 
     Think about writing your own authentication service if you have any scenario
-    where it makes sense to maintain a `username` and an `email` of website
-    user records in your TYPO3 instance.
+    where it makes sense to maintain a `username` and a different `email` of
+    website user records in your TYPO3 instance when you want a login by email
+    as username in the authentication process. You will have to adopt the `eval`
+    for `fe_users.email` by your own!
 
 ..  _screenshots:
 
