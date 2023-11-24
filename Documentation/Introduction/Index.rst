@@ -12,8 +12,14 @@ This chapter gives you a basic introduction about the TYPO3 CMS extension
 What does it do?
 ================
 
-This extension implements helpers to keep the field `email` in sync with the
-field `username` for website user records in the TYPO3 backend.
+.. rst-class:: bignums-xxl
+
+#. This extension implements helpers to keep the field `email` in sync with the
+   field `username` for website user records in the TYPO3 backend.
+
+#. In addition to that a command :bash:`fe_users:sync-username-to-email` is added
+   and can be executed anytime with the :ref:`TYPO3 CLI <t3coreapi:cli-mode>` to
+   update all `fe_users` records.
 
 **Best practices from the scratch**
 
