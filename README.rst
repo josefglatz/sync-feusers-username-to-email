@@ -2,6 +2,9 @@
 Sync fe_users username to email
 ===============================
 
+TYPO3 extension `josefglatz/sync-feusers-username-to-email`
+===========================================================
+
 This TYPO3 extension takes care of syncing the fe_users.username to
 fe_users.email field when editing frontend users in the backend.
 
