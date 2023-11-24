@@ -7,4 +7,5 @@ fe_users.email field when editing frontend users in the backend.
 
 :Repository:  https://github.com/josefglatz/sync-feusers-username-to-email
 :Official Documentation: https://docs.typo3.org/p/josefglatz/sync-feusers-username-to-email/main/en-us/
+:Packagist:         https://packagist.org/packages/josefglatz/sync-feusers-username-to-email
 :TER:         https://extensions.typo3.org/extension/sync_feusers_username_to_email/
