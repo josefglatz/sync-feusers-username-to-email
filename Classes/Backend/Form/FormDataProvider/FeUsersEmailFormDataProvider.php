@@ -52,6 +52,9 @@ class FeUsersEmailFormDataProvider implements FormDataProviderInterface
                     // remove the field from columns
                     unset($result['processedTca']['columns'][self::EMAIL_FIELD]);
                 }
+
+                // small improvement: hide lastlogin for a new record
+                unset($result['processedTca']['columns']['lastlogin']);
             }
 
             if (isset($result['pageTsConfig']['tx_sync_feusers_username_to_email.'])

@@ -21,13 +21,21 @@ What does it do?
    and can be executed anytime with the :ref:`TYPO3 CLI <t3coreapi:cli-mode>` to
    update all `fe_users` records.
 
-**Best practices from the scratch**
+#. The UX while creating a new website record is slightly improved
+
+   The field `lastlogin` is hidden as it doesn't provide any useful content.
+
+
+Best practices from the scratch
+-------------------------------
 
 - Based on best practice modifications like FormDataProvider, DataHandler hooks,
   TCA/Overrides and Symfony Console Commands
 - Easy to use & understand for editors
 - Easy to configure "just install and use it"
 
+Why?
+====
 .. tip::
 
     A good reason to use this extension is when you just want to have website
