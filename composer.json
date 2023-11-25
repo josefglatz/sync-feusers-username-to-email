@@ -1,6 +1,6 @@
 {
   "name": "josefglatz/sync-feusers-username-to-email",
-  "description": "This TYPO3 extension takes care of syncing the fe_users.username to fe_users.email field when editing frontend users in the backend",
+  "description": "This TYPO3 extension takes care of syncing the fe_users.username to fe_users.email field when editing websites users in the TYPO3 backend",
   "type": "typo3-cms-extension",
   "license": [
     "GPL-2.0-or-later"
