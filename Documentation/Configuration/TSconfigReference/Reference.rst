@@ -9,7 +9,8 @@ Enable / disable some options
 
 ..  note::
 
-    #. The options are meant to be set in the Page TSconfig context.
+    #. The options are meant to be set in the
+       :ref:`Page TSconfig <t3tsconfig:setting-page-tsconfig>` context.
 
     #. All options needs to be set as a child element of the root element
        :typoscript:`tx_sync_feusers_username_to_email.`
