@@ -12,5 +12,5 @@ Configuration
 
    General
    TSconfigReference/Index
-..   BestPracticeExample
+   BestPracticeExample
 
