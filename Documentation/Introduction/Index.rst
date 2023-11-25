@@ -54,23 +54,26 @@ Creating a new website user record
 ----------------------------------
 
 How the TYPO3 Backend of the editing form look like when creating a new website
-user record after installation.
+user record after installation of this TYPO3 extension.
 
-Field username is improved for email address values
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..  figure:: /Images/screenshot-sync_feusers_username_to_email-newrecord.png
+    :class: with-shadow
+    :alt: Screenshot of TYPO3 backend showing the form for creating a new website user record
+    :width: 100%
 
-How the field `username` of the editing form look like when creating a new or
-editing an existing website user record after installation.
-
-Field email is hidden
-~~~~~~~~~~~~~~~~~~~~~
-
-The field `email` is completely hidden in the editing form when creating a new
-website user record.
+    Improved TCA for editors. How the field `username` of the editing form look
+    like when creating a new or editing an existing website user record after
+    installation. Not shown in the screenshot: The field `email` is hidden when
+    creating a new website user to improve the UX.
 
 
 Editing an existing website user record
 ---------------------------------------
 
-How the field `email` of the editing form look like when editing an existing
-website user record after installation.
+..  figure:: /Images/screenshot-sync_feusers_username_to_email-edit-existing-record.png
+    :class: with-shadow
+    :alt: Screenshot of TYPO3 backend showing the form for editing an existing website user record. The fields username and email are highlighted to show the visual differences after installing this extension.
+    :width: 100%
+
+    How the field `email` of the editing form look like when editing an existing
+    website user record after installation.
