@@ -1,10 +1,10 @@
 {
   "name": "josefglatz/sync-feusers-username-to-email",
   "description": "This TYPO3 extension takes care of syncing the fe_users.username to fe_users.email field when editing websites users in the TYPO3 backend",
-  "type": "typo3-cms-extension",
   "license": [
     "GPL-2.0-or-later"
   ],
+  "type": "typo3-cms-extension",
   "authors": [
     {
       "name": "Josef Glatz",
@@ -13,17 +13,52 @@
       "role": "Maintainer"
     }
   ],
+  "support": {
+    "issues": "https://github.com/josefglatz/sync-feusers-username-to-email/issues",
+    "source": "https://github.com/josefglatz/sync-feusers-username-to-email.git",
+    "docs": "https://docs.typo3.org/p/josefglatz/sync-feusers-username-to-email/main/en-us/",
+    "rss": "https://github.com/josefglatz/sync-feusers-username-to-email/releases.atom"
+  },
   "require": {
+    "php": "^8.2",
     "typo3/cms-core": "^11.5 || ^12.4"
+  },
+  "require-dev": {
+    "armin/editorconfig-cli": "^1.5",
+    "eliashaeussler/php-cs-fixer-config": "^1.2",
+    "ergebnis/composer-normalize": "^2.28",
+    "typo3/coding-standards": "^0.7.1"
   },
   "autoload": {
     "psr-4": {
       "JosefGlatz\\SyncFeUsersUsernameToEmail\\": "Classes/"
     }
   },
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true,
+      "typo3/class-alias-loader": true,
+      "typo3/cms-composer-installers": true
+    },
+    "bin-dir": ".Build/bin",
+    "sort-packages": true,
+    "vendor-dir": ".Build/vendor"
+  },
   "extra": {
     "typo3/cms": {
-      "extension-key": "sync_feusers_username_to_email"
+      "extension-key": "sync_feusers_username_to_email",
+      "web-dir": ".Build/web"
     }
+  },
+  "scripts": {
+    "fix:editorconfig": "@lint:editorconfig --fix",
+    "lint": [
+      "@lint:composer",
+      "@lint:editorconfig",
+      "@lint:php"
+    ],
+    "lint:composer": "@composer normalize --no-check-lock --no-update-lock",
+    "lint:editorconfig": "ec --finder-config .editorconfig-lint.php",
+    "lint:php": "php-cs-fixer fix"
   }
 }

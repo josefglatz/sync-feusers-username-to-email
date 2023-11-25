@@ -1,0 +1,72 @@
+<?php
+
+declare(strict_types=1);
+
+/*
+ * This file is part of the TYPO3 CMS extension "josefglatz/hide-sys-template".
+ *
+ * Copyright (C) 2023 Josef Glatz <typo3@josefglatz.at>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <https://www.gnu.org/licenses/>.
+ */
+
+return [
+    'directories' => [
+        '.build',
+        '.git',
+        '.github',
+        'bin',
+        'build',
+        'public',
+        'resources\\/private\\/frontend',
+        'resources\\/private\\/libs\\/build',
+        'tailor-version-upload',
+        'tests',
+        'vendor',
+    ],
+    'files' => [
+        'DS_Store',
+        'TODO.md',
+        'captainhook.json',
+        'codecov.yml',
+        'CODEOWNERS',
+        'composer.lock',
+        'crowdin.yaml',
+        'dependency-checker.json',
+        'docker-compose.yml',
+        'editorconfig',
+        'editorconfig-lint.php',
+        'gitattributes',
+        'gitignore',
+        'packaging_exclude.php',
+        'php-cs-fixer.php',
+        'phpstan.neon',
+        'phpunit.ci.xml',
+        'phpunit.xml',
+        'CODE_OF_CONDUCT.md',
+        'composer.lock',
+        'CONTRIBUTING.md',
+        'dependency-checker.json',
+        'docker-compose.yml',
+        'packaging_exclude.php',
+        'php-cs-fixer.php',
+        'phpstan.php',
+        'phpstan.neon',
+        'phpstan-baseline.neon',
+        'phpunit.functional.xml',
+        'phpunit.unit.xml',
+        'rector.php',
+        'renovate.json',
+    ],
+];
