@@ -27,6 +27,10 @@ Step by Step
 
 .. rst-class:: bignums-xxl
 
+#. Install `josefglatz/sync-feusers-username-to-email`
+
+   Add this extension first. As we want a login via a real email address.
+
 #. Define the website user fields you need in your project
 
    It's not likely that all fields of a website user record have to be used in a
